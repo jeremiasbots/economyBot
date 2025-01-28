@@ -1,5 +1,8 @@
 const economy = require("../models/economy");
 
+/**
+ * @param {string} userId
+ */
 async function createOrSearchUser(userId) {
 	let user = await economy.findOne({ userId: userId });
 	if (!user) {

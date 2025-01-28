@@ -16,10 +16,21 @@ const translations = (() => {
 	return data;
 })();
 
+/**
+ * @param {object} obj
+ * @param {string} keyPath
+ * @returns {string | undefined}
+ */
 function getNestedKey(obj, keyPath) {
 	return keyPath.split(".").reduce((o, k) => (o ? o[k] : undefined), obj);
 }
 
+/**
+ * @param {string} lang
+ * @param {string} key
+ * @param {object} variables
+ * @returns {string}
+ */
 function translate(lang, key, variables = {}) {
 	const test =
 		getNestedKey(translations[lang], key) ||

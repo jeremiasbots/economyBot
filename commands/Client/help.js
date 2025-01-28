@@ -4,6 +4,10 @@ module.exports = {
 	name: "help",
 	description: translate("es", "descriptions.help"),
 	category: "Help",
+	/**
+	 * @param {import('discord.js').Message} message
+	 * @param {string[]} args
+	 */
 	async execute(message, args) {
 		const { client } = message;
 

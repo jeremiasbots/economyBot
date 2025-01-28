@@ -5,6 +5,9 @@ module.exports = {
 	name: "bal-user",
 	description: translate("es", "descriptions.bal_users"),
 	category: "Owner",
+	/**
+	 * @param {import('discord.js').Message} message
+	 */
 	async execute(message) {
 		if (!message.member.permissions.has("ADMINISTRATOR")) {
 			return message.reply(

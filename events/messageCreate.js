@@ -3,6 +3,10 @@ const { translate } = require("../utils/translator");
 
 module.exports = {
 	name: "messageCreate",
+	/**
+	 * @param {import('discord.js').Message} message
+	 * @param {import('discord.js').Client} client
+	 */
 	execute(message, client) {
 		const userLang = "es";
 

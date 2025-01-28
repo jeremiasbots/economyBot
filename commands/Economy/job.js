@@ -5,6 +5,9 @@ module.exports = {
 	name: "job",
 	description: translate("es", "descriptions.job"),
 	category: "Economy",
+	/**
+	 * @param {import('discord.js').Message} message
+	 */
 	async execute(message) {
 		const userId = message.author.id;
 		const user = await createOrSearchUser(userId);

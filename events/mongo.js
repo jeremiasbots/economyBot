@@ -4,6 +4,9 @@ const { ActivityType } = require("discord.js");
 
 module.exports = {
 	name: "ready",
+	/**
+	 * @param {import('discord.js').Client} client
+	 */
 	execute(client) {
 		mongoose
 			.connect(mongoUser)

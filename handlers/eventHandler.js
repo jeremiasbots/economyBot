@@ -1,6 +1,9 @@
 const fs = require("node:fs");
 const path = require("node:path");
 
+/**
+ * @param {import('discord.js').Client} client
+ */
 module.exports = (client) => {
 	const eventsPath = path.join(__dirname, "../events");
 

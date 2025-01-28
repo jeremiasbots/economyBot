@@ -5,6 +5,10 @@ module.exports = {
 	name: "rob",
 	description: translate("es", "descriptions.rob"),
 	category: "Economy",
+	/**
+	 * @param {import('discord.js').Message} message
+	 * @param {string[]} args
+	 */
 	async execute(message, args) {
 		const userMention = message.mentions.users.first();
 

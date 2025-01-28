@@ -37,7 +37,10 @@ module.exports = {
 module.exports = {
 	name: "set-lang",
 	description: "Seleccionar el idioma del bot",
-	async execute(message, _args) {
+	/**
+	 * @param {import('discord.js').Message} message
+	 */
+	async execute(message) {
 		if (!message.member.permissions.has("ADMINISTRATOR")) {
 			return message.reply(
 				translate(message.author.id, "errors.no_permissions"),

@@ -5,6 +5,10 @@ module.exports = {
 	name: "remove-money",
 	description: translate("es", "descriptions.remove_money"),
 	category: "Owner",
+	/**
+	 * @param {import('discord.js').Message} message
+	 * @param {string[]} args
+	 */
 	async execute(message, args) {
 		if (!message.member.permissions.has("ADMINISTRATOR")) {
 			return message.reply(

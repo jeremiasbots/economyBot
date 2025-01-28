@@ -1,7 +1,13 @@
 const fs = require("node:fs");
 const path = require("node:path");
 
+/**
+ * @param {import('discord.js').Client} client
+ */
 module.exports = (client) => {
+	/**
+	 * @param {string} dir
+	 */
 	const loadCommands = (dir) => {
 		const files = fs.readdirSync(dir);
 
