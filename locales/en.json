@@ -1,0 +1,57 @@
+{
+  "descriptions": {
+    "help": "Shows the list of commands",
+    "ping": "The bot responds with Pong",
+    "bal": "You can see your balance",
+    "job": "Work to get money",
+    "rob": "Rob money",
+    "add_money": "Add money a users",
+    "bal_users": "See money of users",
+    "remove_money": "Remove money from users"
+  },
+  "errors": {
+    "no_command": "**That command does not exist.**",
+    "commandError": "**There was an error executing the command.**",
+    "no_permissions": "You do not have **permissions** to use this command."
+  },
+  "help": {
+    "category": "Category **{category}**\n",
+    "other": "Other",
+    "no_command": "The command **{command_name}** does not exist",
+    "helpMessage": "List of commands:\n",
+    "command-info": "Command: **{command_name}**\n",
+    "command-description": "Description: **{command_description}**\n",
+    "command-usage": "Use: **{command_usage}**\n"
+  },
+  "set_lang": {
+    "use": "Use: !set-lang <language>",
+    "succes": "The language has been changed to **{lang}**"
+  },
+  "bal": {
+    "mention": "You can't see **other people's money**",
+    "balance": "💸 Pocket: **${money}**\n🏦 Bank: **${bank}**"
+  },
+  "job": {
+    "claim": "You worked hard and earned **${ganancy}**\nYour new balance is **${money}**"
+  },
+  "rob": {
+    "no_mention": "**You must mention who you will steal from**",
+    "auto_mention": "**You can't steal from yourself**",
+    "no_quantity": "You **CAN'T** decide how much to steal",
+    "no_money": "{stolen} **doesn't** have enough **money**",
+    "succes": "You have successfully stolen **${actualMoney}** from **{stolen}**."
+  },
+  "add_money": {
+    "bot_money": "**You can't give money a bot**",
+    "mention": "Use: !add-money @user quantity",
+    "succes": "**${quantity}** has been added to **{user}** successfully."
+  },
+  "remove_money": {
+    "mention": "Use: !remove-money @user quantity",
+    "succes": "**${quantity}** has been removed to **{user}** successfully."
+  },
+  "bal_users": {
+    "mention": "**You must mention the user**",
+    "balance": "Balance of **{user}**\n> 💸 Pocket: **${money}**\n> 🏦 Bank: **${bank}**"
+  }
+}
