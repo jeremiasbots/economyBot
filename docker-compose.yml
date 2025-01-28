@@ -1,0 +1,19 @@
+services:
+  bot:
+    build: .
+    env_file: .env
+    volumes:
+      - .:/home/app
+      - /home/app/node_modules
+    depends_on:
+      - db
+  db:
+    image: mongo
+    env_file: .mongodb.env
+    volumes:
+      - mongo-data:/data/db
+    ports:
+      - "27017:27017"
+
+volumes:
+  mongo-data:
