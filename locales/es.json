@@ -1,57 +1,57 @@
 {
-  "descriptions": {
-    "help": "Muestra la lista de comandos",
-    "ping": "El bot responde con Pong",
-    "bal": "Puedes ver tu dinero",
-    "job": "Trabaja para conseguir dinero",
-    "rob": "Robar dinero",
-    "add_money": "Dar dinero a los usuarios",
-    "bal_users": "Ver dinero de usuarios",
-    "remove_money": "Quitar dinero a usuarios"
-  },
-  "errors": {
-    "no_command": "**Ese comando no existe.**",
-    "commandError": "**Hubo un error al ejecutar el comando.**",
-    "no_permissions": "No tienes **permisos** para usar este comando"
-  },
-  "help": {
-    "category": "Categoría **{category}**\n",
-    "other": "Otros",
-    "no_command": "El comando **{command_name}** no existe",
-    "helpMessage": "Lista de comandos:\n",
-    "command-info": "Comando: **{command_name}**\n",
-    "command-description": "Descripción: **{command_description}**\n",
-    "command-usage": "Uso: **{command_usage}**\n"
-  },
-  "set_lang": {
-    "use": "Uso: !set-lang <idioma>",
-    "succes": "El idioma se ha cambiado a **{lang}**"
-  },
-  "bal": {
-    "mention": "No puedes ver el **dinero de otros**",
-    "balance": "💸 Bolsillo: **${money}**\n🏦 Banco: **${bank}**"
-  },
-  "job": {
-    "claim": "Has trabajado muy duro y conseguiste **${ganancy}**\nTu nuevo saldo es de **${money}**"
-  },
-  "rob": {
-    "no_mention": "**Debes mencionar a quien robarás**",
-    "auto_mention": "**No puedes robarte a ti mismo**",
-    "no_quantity": "**NO** puedes decidir cuanto robar",
-    "no_money": "{stolen} **no** tiene suficiente **dinero**",
-    "succes": "Has robado **${actualMoney}** a **{stolen}** exitosamente."
-  },
-  "add_money": {
-    "bot_money": "**No puedes darle dinero a un bot**",
-    "mention": "Uso: !add-money @usuario cantidad",
-    "succes": "Se han añadido **${quantity}** a **{user}** con éxito."
-  },
-  "remove_money": {
-    "mention": "Use: !remove-money @usuario cantidad",
-    "succes": "Se han removido **${quantity}** a **{user}** con éxito."
-  },
-  "bal_users": {
-    "mention": "**Debes mencionar al usuario**",
-    "balance": "Balance de **{user}**\n> 💸 Bolsillo: **${money}**\n> 🏦 Banco: **${bank}**"
-  }
+	"descriptions": {
+		"help": "Muestra la lista de comandos",
+		"ping": "El bot responde con Pong",
+		"bal": "Puedes ver tu dinero",
+		"job": "Trabaja para conseguir dinero",
+		"rob": "Robar dinero",
+		"add_money": "Dar dinero a los usuarios",
+		"bal_users": "Ver dinero de usuarios",
+		"remove_money": "Quitar dinero a usuarios"
+	},
+	"errors": {
+		"no_command": "**Ese comando no existe.**",
+		"commandError": "**Hubo un error al ejecutar el comando.**",
+		"no_permissions": "No tienes **permisos** para usar este comando"
+	},
+	"help": {
+		"category": "Categoría **{category}**\n",
+		"other": "Otros",
+		"no_command": "El comando **{command_name}** no existe",
+		"helpMessage": "Lista de comandos:\n",
+		"command-info": "Comando: **{command_name}**\n",
+		"command-description": "Descripción: **{command_description}**\n",
+		"command-usage": "Uso: **{command_usage}**\n"
+	},
+	"set_lang": {
+		"use": "Uso: !set-lang <idioma>",
+		"succes": "El idioma se ha cambiado a **{lang}**"
+	},
+	"bal": {
+		"mention": "No puedes ver el **dinero de otros**",
+		"balance": "💸 Bolsillo: **${money}**\n🏦 Banco: **${bank}**"
+	},
+	"job": {
+		"claim": "Has trabajado muy duro y conseguiste **${ganancy}**\nTu nuevo saldo es de **${money}**"
+	},
+	"rob": {
+		"no_mention": "**Debes mencionar a quien robarás**",
+		"auto_mention": "**No puedes robarte a ti mismo**",
+		"no_quantity": "**NO** puedes decidir cuanto robar",
+		"no_money": "{stolen} **no** tiene suficiente **dinero**",
+		"succes": "Has robado **${actualMoney}** a **{stolen}** exitosamente."
+	},
+	"add_money": {
+		"bot_money": "**No puedes darle dinero a un bot**",
+		"mention": "Uso: !add-money @usuario cantidad",
+		"succes": "Se han añadido **${quantity}** a **{user}** con éxito."
+	},
+	"remove_money": {
+		"mention": "Use: !remove-money @usuario cantidad",
+		"succes": "Se han removido **${quantity}** a **{user}** con éxito."
+	},
+	"bal_users": {
+		"mention": "**Debes mencionar al usuario**",
+		"balance": "Balance de **{user}**\n> 💸 Bolsillo: **${money}**\n> 🏦 Banco: **${bank}**"
+	}
 }

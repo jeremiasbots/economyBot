@@ -1,3 +1,4 @@
+const { translate } = require("../../utils/translator");
 /*const { getUserLanguage } = require("../../utils/langs");
 const languages = require("../../models/languages");
 const { translate } = require("../../utils/translator");
@@ -34,14 +35,14 @@ module.exports = {
 };*/
 
 module.exports = {
-    name: "set-lang",
-    description: "Seleccionar el idioma del bot",
-    async execute(message, args) {
-      if (!message.member.permissions.has("ADMINISTRATOR")) {
-        return message.reply(
-          translate(message.author.id, "errors.no_permissions"),
-        );
-      }
-      return message.reply("XD");
-    }
-  };
+	name: "set-lang",
+	description: "Seleccionar el idioma del bot",
+	async execute(message, _args) {
+		if (!message.member.permissions.has("ADMINISTRATOR")) {
+			return message.reply(
+				translate(message.author.id, "errors.no_permissions"),
+			);
+		}
+		return message.reply("XD");
+	},
+};
