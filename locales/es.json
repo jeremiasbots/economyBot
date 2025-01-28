@@ -7,7 +7,8 @@
 		"rob": "Robar dinero",
 		"add_money": "Dar dinero a los usuarios",
 		"bal_users": "Ver dinero de usuarios",
-		"remove_money": "Quitar dinero a usuarios"
+		"remove_money": "Quitar dinero a usuarios",
+		"dep": "Depositar dinero en el banco"
 	},
 	"errors": {
 		"no_command": "**Ese comando no existe.**",
@@ -53,5 +54,10 @@
 	"bal_users": {
 		"mention": "**Debes mencionar al usuario**",
 		"balance": "Balance de **{user}**\n> 💸 Bolsillo: **${money}**\n> 🏦 Banco: **${bank}**"
+	},
+	"dep": {
+		"no_quantity": "La cantidad debe ser mayor a cero",
+		"no_money": "La cantidad que quieres depositar es mayor a la que tienes en el banco",
+		"success": "Has depositado **${amount}** en el banco"
 	}
 }

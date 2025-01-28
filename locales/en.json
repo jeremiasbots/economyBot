@@ -7,7 +7,8 @@
 		"rob": "Rob money",
 		"add_money": "Add money a users",
 		"bal_users": "See money of users",
-		"remove_money": "Remove money from users"
+		"remove_money": "Remove money from users",
+		"dep": "Deposit money"
 	},
 	"errors": {
 		"no_command": "**That command does not exist.**",
@@ -53,5 +54,10 @@
 	"bal_users": {
 		"mention": "**You must mention the user**",
 		"balance": "Balance of **{user}**\n> 💸 Pocket: **${money}**\n> 🏦 Bank: **${bank}**"
+	},
+	"dep": {
+		"no_quantity": "The amount must be greater than zero",
+		"no_money": "The amount you want to deposit is greater than what you have in the bank",
+		"success": "You have deposited **${amount}** in the bank"
 	}
 }
